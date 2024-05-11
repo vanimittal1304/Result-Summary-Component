@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.container{
+    height: 80%;
+    margin-top: 10%;
+}
+.yourResult{
+    display: inline-block;
+    
+}
+.score{
+    background: linear-gradient(angle, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.total-score{
+    border-radius: 50%;
+    display: inline-block;
+    background-color: blue;
+}
+
+.summary{
+    display: inline-block;
+}
